@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#canvas{
+    /* background: #052C55; */
+    /* background-image: linear-gradient(45deg, #a0ff919c 50%, rgba(255, 255, 255, 0.822) 50%); */
+    background-image: linear-gradient(27deg, #63c8f79c 50%, rgba(255, 255, 255, 0.822) 50%),url("./images/champion.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background: linear-gradient(25deg,#29B7E3 45%, #E612FC 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr{
+    width:25vw;
+    height: 5px;
+    border:0;
+    display: block;
+    margin:0 auto;
+    background: linear-gradient(25deg,#29B7E3 45%, #E612FC 55%);
+    border-radius: 20px;
+}
+
+.spacing{
+    padding:20px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+img{
+    width:15%;
+    height:15%;
+}
+
+table, td, th{  
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: left;
+    box-shadow: 15px 30px;
+    padding: 10px 25px;
+  }
+  
+table{
+    border-collapse: collapse;
+}
+  
+th{
+    background: turquoise;
+}
+
+a:link,:visited
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+span{
+    padding-left:15px;
+    color: rgb(0, 0, 0,0.7);
+}
